@@ -19,7 +19,9 @@ public class Main extends Application {
 
     public void start(Stage primaryStage) throws Exception {
         window = primaryStage;
+
         primaryStage.setTitle("Number guessing game, trying conflict");
+
         guessedNumber = new TextField();
         guessedNumber.setPromptText("Please enter your number!");
         Button playButton = new Button("Check the number");
@@ -52,7 +54,7 @@ public class Main extends Application {
         }
     }
 
-
+// testing Sourcetree
 
 //        int roundedResult = (int) (Math.random() * 100);
 //
