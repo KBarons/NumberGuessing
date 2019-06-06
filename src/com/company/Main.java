@@ -41,9 +41,11 @@ public class Main extends Application {
 
         if (guessedNumber.equals(roundedResult)) {
             System.out.println("Your number is too big!");
+
         } else if (guessedNumber.equals(roundedResult)) {
             System.out.println("Your number is too small!");
             System.out.println("GIT is much fun");
+
         } else {
             window.close();
             System.out.println("You guessed my number!");
