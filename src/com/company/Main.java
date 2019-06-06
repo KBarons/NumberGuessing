@@ -19,7 +19,7 @@ public class Main extends Application {
 
     public void start(Stage primaryStage) throws Exception {
         window = primaryStage;
-        primaryStage.setTitle("Number guessing game");
+        primaryStage.setTitle("The Number Guessing Game");
         guessedNumber = new TextField();
         guessedNumber.setPromptText("Please enter your number!");
         Button playButton = new Button("Check the number");
